@@ -10,6 +10,8 @@ Some things to consider here are that it takes about 10-15 seconds to read the W
 
 Right now, the application only displays the amount of words equal to the terminal height - 3, but I've found this is more than enough given the time limit. I've also come to find that the dictionary I used includes english words that aren't valid in the game ¯\_(ツ)_/¯  
 
+To run this on your machine, all you need is to have Rust installed, clone this repo, cd into it, and run `cargo run`.  
+
 ### crossterm
 [crossterm](https://crates.io/crates/crossterm) is a Rust library that provides an API to easily manipulate the terminal interface. It supports a majority of UNIX and Windows terminals down to Windows 7 and worked perfectly on my Ghostty terminal in Linux Mint!  
 
